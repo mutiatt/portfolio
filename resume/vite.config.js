@@ -11,4 +11,10 @@ export default defineConfig({
     },
   },
 
+  resolve: {
+    alias: {
+      "react-router-dom": "react-router-dom",
+    },
+  },
+
 })
