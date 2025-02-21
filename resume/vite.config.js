@@ -5,5 +5,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ["**/*.JPG"],
+  build: {
+    rollupOptions: {
+      external: ['react-router-dom'], // Ensures Vite recognizes it
+    },
+  },
 
 })
