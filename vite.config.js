@@ -10,7 +10,6 @@ export default defineConfig({
       external: ['react-router-dom'], // Ensures Vite recognizes it
     },
   },
-
   resolve: {
     alias: {
       "react-router-dom": "react-router-dom",
