@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Navbar from "./Components/Navbar";
 // import Footer from "./Components/Footer";
@@ -11,18 +11,18 @@ import "./Pages/style.css";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <div className="main-content">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Services" element={<Services />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
-    {/* <Footer /> */}
-    </Router>
+      <BrowserRouter>
+        <Navbar />
+        <div className="main-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Services" element={<Services />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+      {/* <Footer /> */}
+      </BrowserRouter>
   );
 }
 
