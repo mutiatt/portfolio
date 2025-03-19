@@ -10,9 +10,9 @@ export default function Services() {
           <div className="service-card">
           <i className="bi bi-laptop"></i>
           <h2>Web <span>Design</span></h2>
-            <p>My current stack is Frontend Development with HTML, CSS, Bootstrap, and JavaScript.
-            I am currently learning React.js, Tailwind CSS and Node.js, hoping to grow my skills in these technologies.</p>
-            <a href="">Click Here!</a>
+            <p>My current stack is Frontend Development with HTML, CSS, Bootstrap,Tailwind Css and JavaScript.
+            I am currently learning React.js,and Node.js, hoping to grow my skills in these technologies.</p>
+            <a href="/">Click Here!</a>
           </div>
 
           <div className="service-card">
@@ -40,7 +40,7 @@ export default function Services() {
             <i class="bi bi-palette"></i>
             <h2>Makeup <span>Artistry</span></h2>
             <p>If I’m not tapping away on my screen, you can find me making pretty people even prettier!</p>
-            <a href="https://www.instagram.com/reel/DFIG2WtoOv7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">Check out my Insta!</a>
+            <a href="https://www.instagram.com/reel/DGGAJecI2XP/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">Check out my Insta!</a>
           </div>
         </div>
       </div>

@@ -10,18 +10,18 @@ export default function Contact() {
         {/* Left Side - Contact Info & Social Links */}
         <div className="col-12 col-md-6 text-center text-md-start mb-4">
           <div className="contact-left">
-            <p><i className="bi bi-send"></i> lamidemutiat@gmail.com</p>
-            <p><i className="bi bi-telephone"></i> +234-8189798384</p>
+            <p><i className="bi bi-send"></i><a href="mailto:lamidemutiat@gmail.com" className='ps-3 text-decoration-none text-light'>lamidemutiat@gmail.com</a></p>
+             <p><i className="bi bi-telephone"></i><a href="tel:+234-8189798384" className='ps-3 text-decoration-none text-light'>+234-8189798384</a></p>
           </div>
           
           <div className="social-icons mt-3">
-            <a href="#"><i className="bi bi-facebook"></i></a>
-            <a href="#"><i className="bi bi-instagram"></i></a>
-            <a href="#"><i className="bi bi-twitter"></i></a>
-            <a href="#"><i className="bi bi-linkedin"></i></a>
+            <a href="https://web.facebook.com/adenekan.mutiat.3"><i className="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/_mutiat/"><i className="bi bi-instagram"></i></a>
+            <a href=""><i className="bi bi-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/mutiat-adenekan-96199325a/"><i className="bi bi-linkedin"></i></a>
           </div>
 
-          <a href="./Adenekan Mutiat Olamide CV.pdf" target="_blank" download className="btn btn-dark  mt-3">
+          <a href="/Adenekan Mutiat Olamide's CV.pdf" target="_blank" download className="btn btn-dark  mt-3">
             Download CV
           </a>
         </div>
