@@ -35,6 +35,7 @@ export default function Projects() {
                           containerWidth="300px"
                           imageHeight="300px"
                           imageWidth="300px"
+                          loading="lazy"
                           rotateAmplitude={12}
                           scaleOnHover={1.2}
                           showMobileWarning={false}
@@ -57,6 +58,7 @@ export default function Projects() {
                               containerWidth="300px"
                               imageHeight="300px"
                               imageWidth="300px"
+                              loading="lazy"
                               rotateAmplitude={12}
                               scaleOnHover={1.2}
                               showMobileWarning={false}
@@ -79,6 +81,7 @@ export default function Projects() {
                                 containerWidth="300px"
                                 imageHeight="300px"
                                 imageWidth="300px"
+                                loading="lazy"
                                 rotateAmplitude={12}
                                 scaleOnHover={1.2}
                                 showMobileWarning={false}
@@ -100,6 +103,7 @@ export default function Projects() {
                                 containerHeight="300px"
                                 containerWidth="300px"
                                 imageHeight="300px"
+                                loading="lazy"
                                 imageWidth="300px"
                                 rotateAmplitude={12}
                                 scaleOnHover={1.2}
@@ -122,6 +126,7 @@ export default function Projects() {
                                 containerWidth="300px"
                                 imageHeight="300px"
                                 imageWidth="300px"
+                                loading="lazy"
                                 rotateAmplitude={12}
                                 scaleOnHover={1.2}
                                 showMobileWarning={false}
@@ -133,7 +138,7 @@ export default function Projects() {
                 </a>
             </div>
             <div className="col-md-6 col-lg-4">
-              <a href=""
+              <a href="https://mutiatt.github.io/portfolio.github.io/restaurant/menu.html"
                         target="_blank" rel="noopener noreferrer">
                           <TiltedCard
                                 imageSrc={recipe}
@@ -143,6 +148,7 @@ export default function Projects() {
                                 containerWidth="300px"
                                 imageHeight="300px"
                                 imageWidth="300px"
+                                loading="lazy"
                                 rotateAmplitude={12}
                                 scaleOnHover={1.2}
                                 showMobileWarning={false}

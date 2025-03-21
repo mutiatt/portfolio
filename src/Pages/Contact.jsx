@@ -1,6 +1,35 @@
 import React from 'react';
+import { useState } from 'react';
+import { db } from '/backend/firebaseConfig.js';
+import { collection, addDoc } from "firebase/firestore";
+
 
 export default function Contact() {
+    const [formData, setFormData] = useState({
+      Name: "",
+      Email: "",
+      Message: "",
+    });
+  
+    const [successMessage, setSuccessMessage] = useState("");
+  
+    // Handle input change
+    const handleChange = (e) => {
+      setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+
+    // Handle form submission
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await addDoc(collection(db, "contact"), formData);
+      setSuccessMessage("Message sent successfully!");
+      setFormData({ Name: "", Email: "", Message: "" });
+    } catch (error) {
+      console.error("Error adding document: ", error);
+    }
+  };
+  
   return (
     <div id="contact" className="container py-5">
       <h1 className="sub-title text-start text-orange 
@@ -29,13 +58,18 @@ export default function Contact() {
         {/* Right Side - Contact Form */}
         <div className="col-12 col-md-6">
           <div className="contact-right">
-            <form name="submit-to-google-sheet">
-              <input type="text" name="Name" placeholder="Your Name" required />
-              <input type="email" name="Email" placeholder="Your Email" required />
-              <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+            <form name="contact" onSubmit={handleSubmit}>
+              <input type="text" name="Name" placeholder="Your Name" value={formData.Name}
+                  onChange={handleChange} required />
+              <input type="email" name="Email" placeholder="Your Email" value={formData.Email}
+          onChange={handleChange} required />
+              <textarea name="Message" rows="5" placeholder="Your Message" value={formData.Message}
+          onChange={handleChange} required></textarea>
               <button type="submit" className="btn btn-dark">Submit</button>
             </form>
             <span id="msg"></span>
+            {successMessage && <p style={{ color: "orange" }}>{successMessage}</p>}
+
           </div>
         </div>
       </div>
