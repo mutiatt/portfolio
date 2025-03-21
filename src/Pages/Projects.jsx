@@ -47,29 +47,6 @@ export default function Projects() {
                     />
                 </a>
             </div>
-             <div className="col-md-6 col-lg-4">
-                <a href="https://mutiatt.github.io/portfolio.github.io/WIX/index.html"
-                      target="_blank" rel="noopener noreferrer">
-                        <TiltedCard
-                              imageSrc={work2}
-                              altText="Landing Pages"
-                              captionText="Landing Pages"
-                              containerHeight="300px"
-                              containerWidth="300px"
-                              imageHeight="300px"
-                              imageWidth="300px"
-                              loading="lazy"
-                              rotateAmplitude={12}
-                              scaleOnHover={1.2}
-                              showMobileWarning={false}
-                              showTooltip={true}
-                              displayOverlayContent={true}
-                              overlayContent={
-                                <p className="tilted-card-demo-text"></p>
-                            }
-                      />
-                    </a>
-              </div>
             <div className="col-md-6 col-lg-4">
               <a href=" https://mutiatt.github.io/portfolio.github.io/ML%20logistics/index.html"
                         target="_blank" rel="noopener noreferrer">
@@ -159,6 +136,29 @@ export default function Projects() {
                                   />
                 </a>
             </div>
+            <div className="col-md-6 col-lg-4">
+                <a href="/"
+                      target="_blank" rel="noopener noreferrer">
+                        <TiltedCard
+                              imageSrc={work2}
+                              altText="Landing Pages"
+                              captionText="Landing Pages"
+                              containerHeight="300px"
+                              containerWidth="300px"
+                              imageHeight="300px"
+                              imageWidth="300px"
+                              loading="lazy"
+                              rotateAmplitude={12}
+                              scaleOnHover={1.2}
+                              showMobileWarning={false}
+                              showTooltip={true}
+                              displayOverlayContent={true}
+                              overlayContent={
+                                <p className="tilted-card-demo-text"></p>
+                            }
+                      />
+                    </a>
+              </div>
 
             
 
