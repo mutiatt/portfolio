@@ -46,7 +46,7 @@ export default function Contact() {
           <div className="social-icons mt-3">
             <a href="https://web.facebook.com/adenekan.mutiat.3"><i className="bi bi-facebook"></i></a>
             <a href="https://www.instagram.com/_mutiat/"><i className="bi bi-instagram"></i></a>
-            <a href=""><i className="bi bi-twitter"></i></a>
+            <a href="https://x.com/_mutiatt"><i className="bi bi-twitter"></i></a>
             <a href="https://www.linkedin.com/in/mutiat-adenekan-96199325a/"><i className="bi bi-linkedin"></i></a>
           </div>
 
