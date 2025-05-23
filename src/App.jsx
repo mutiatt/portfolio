@@ -9,8 +9,10 @@ import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
 import "./Pages/style.css";
 
+
 function App() {
   return (
+    
       <BrowserRouter>
         <Navbar />
         <div className="main-content">
@@ -23,6 +25,7 @@ function App() {
         </div>
       {/* <Footer /> */}
       </BrowserRouter>
+      
   );
 }
 
