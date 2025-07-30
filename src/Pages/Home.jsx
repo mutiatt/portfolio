@@ -78,8 +78,10 @@ const handleAnimationComplete = () => {
 
             <div className={`tab-contents ${activeTab === "experience" ? "active-tab" : ""}`} id="experience">
               <ul>
-                <li><span>2024</span><br/>Full Stack Development Training at Mackintouch Consulting</li>
-                <li><span>2024</span><br/>Project Manager, Volunter- HerBode Org.</li>
+                <li><span>2025-Present</span><br/>Project Manager, Babskenky & Company.</li>
+                <li><span>2025-Present</span><br/>Facilitator Intern, Makintouch Consulting</li>
+                <li><span>2024</span><br/>Full Stack Development Training at Mackintouch Consulting.</li>
+                <li><span>2024-Present</span><br/>Project Manager, Volunter- HerBode Org.</li>
                 <li><span>2023</span><br/>Internship, Virdi Nigeria LTD.</li>
                 <li><span>2022-2023</span><br/>Vice President, NACOS(Lead City University Chapter)</li>
                 <li><span>2022-2023</span><br/>Student Ambassador, Huawei ICT Academy</li>
